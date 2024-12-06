@@ -1,6 +1,6 @@
 /*******************************************************************************************************************************************
 Ex #a
-Written by: nouh jaber, id = 215185844, login: nouhja
+Written by: nouh jaber, 
 This program simulates the calculation of the differences of numbers.
 
 Input:  the (num1, num2, num3) three integer variables.
