@@ -1,6 +1,6 @@
 /*******************************************************************************************************************************************
 Ex #b
-Written by: nouh jaber, id = 215185844, login: nouhja
+Written by: nouh jaber, 
 This program simulates the calculation of the area and the perimeter of a triangle.
 
 Input:  the (a, b, c) sides.
