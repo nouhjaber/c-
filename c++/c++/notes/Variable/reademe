@@ -1,0 +1,27 @@
+                                                            sumery
+
+    Integer Types: These include types like int, short, long, and long long for storing integer values. The appropriate type can be selected based on the required size of the number.
+    Floating-Point Types: Types such as float, double, and long double are used for representing numbers with decimal points.
+    Character Types: Used for storing characters and text with types like char, char8_t, char16_t, and char32_t, supporting different Unicode formats.
+    Boolean Data: Represents simple values like true or false using the bool type.
+    String Types: Used for storing text strings with types like string and const char*.
+    Constant Variables: Using const to make a variable constant, ensuring its value cannot be changed.
+    Derived Types: These include arrays, pointers, and references, which are used to store other data types or memory addresses.
+    Union: A union allows storing different data types in the same memory location, but only one type can be used at a time.
+    Structure: A custom data type that can hold multiple variables of different types grouped together under one name.
+    Enumerations: Defines a set of related named constants, usually representing integers.
+    Type Modifiers: Using unsigned and signed to specify whether a variable can hold negative values or not.
+    Type Aliases: Using typedef to create aliases for existing data types, making the code clearer and more readable.
+
+    أنواع الأعداد الصحيحة: هذه تشمل الأنواع int, short, long, long long لتخزين الأعداد الصحيحة. يمكن اختيار النوع الأنسب حسب الحاجة لحجم الرقم.
+    أنواع الأعداد العشرية: مثل float, double, و long double لاستخدام الأرقام التي تحتوي على فاصلة عشرية.
+    أنواع الأحرف: لتخزين الحروف والنصوص باستخدام أنواع char و char8_t و char16_t و char32_t مع دعم لتنسيقات يونيكود المختلفة.
+    البيانات المنطقية: يتم تمثيل القيم البسيطة مثل الصواب والخطأ باستخدام النوع bool.
+    السلاسل النصية: لتخزين نصوص باستخدام string و const char*.
+    المتغيرات الثابتة: باستخدام const لجعل المتغير ثابتًا وغير قابل للتغيير.
+    الأنواع المشتقة: مثل المصفوفات (arrays), المؤشرات (pointers), والمراجع (references), التي تُستخدم لتخزين أنواع بيانات أخرى أو عناوين ذاكرة.
+    الاتحاد (Union): يسمح بتخزين بيانات متعددة الأنواع في نفس مكان الذاكرة.
+    الهيكل (Structure): هو نوع بيانات مخصص يمكن أن يحتوي على متغيرات متعددة من أنواع مختلفة.
+    التعدادات (Enumerations): تعريف مجموعة من الثوابت الرقمية المرتبطة.
+    تعديلات النوع: باستخدام unsigned و signed لتحديد إذا كان المتغير يمكن أن يحتوي على أعداد سالبة أم لا.
+    أسماء مستعارة للأنواع: باستخدام typedef لإنشاء أسماء مستعارة لأنواع البيانات لجعل الكود أكثر وضوحًا.

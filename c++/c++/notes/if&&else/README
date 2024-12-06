@@ -1,0 +1,41 @@
+Simple if statement:
+
+    Executes the block of code inside the if if the condition evaluates to true.
+    Example: if (a < b) checks if a is less than b and, if true, prints "a is less than b".
+
+if-else statement:
+
+    If the condition is true, the code inside the if block executes; otherwise, the code inside the else block executes.
+    Example: If a > b, the if block will execute. Otherwise, the else block will execute and print "a is NOT greater than b".
+
+if-else if-else ladder:
+
+    Allows checking multiple conditions sequentially.
+    The first condition (if) is checked, then the next condition (else if) is checked if the first one is false, and so on. If none of the conditions are true, the final else block executes.
+    Example: For the variable number, the program checks if it's positive, negative, or zero, and prints the appropriate message.
+
+Nested if statements:
+
+    You can place one if statement inside another. The outer if checks its condition first, and if true, it evaluates the inner if.
+    Example: The first if checks if x > 10, and if true, it checks if y > 25.
+
+
+    جملة if البسيطة:
+
+    تنفذ الكود داخل جملة if فقط إذا كان الشرط صحيحًا.
+    في المثال: if (a < b) يتحقق مما إذا كان a أصغر من b وإذا كانت النتيجة صحيحة، يتم طباعة "a أصغر من b".
+
+جملة if-else:
+
+    إذا كان الشرط في if صحيحًا، يتم تنفيذ الكود في الـ if، وإذا كان الشرط غير صحيح يتم تنفيذ الكود في الـ else.
+    في المثال: إذا كانت a > b، يتم تنفيذ الكود داخل جملة if. إذا كانت a ليست أكبر من b، يتم تنفيذ الكود في جملة else ويطبع "a ليس أكبر من b".
+
+تسلسل جمل if-else if-else:
+
+    هذه الطريقة تسمح بالتحقق من عدة شروط متتالية. إذا كان الشرط الأول غير صحيح، يتم الانتقال إلى التحقق من الشرط التالي باستخدام else if، وإذا لم تتحقق أي من الشروط، يتم تنفيذ جملة else.
+    في المثال: نتحقق مما إذا كان number إيجابيًا، سلبيًا، أو صفرًا.
+
+جمل if المتداخلة:
+
+    يمكنك وضع جملة if داخل جملة if أخرى. يقوم البرنامج أولاً بالتحقق من الشرط الخارجي، وإذا تحقق، يتحقق من الشرط الداخلي.
+    في المثال: يتم أولاً التحقق من أن x > 10، وإذا كان الشرط صحيحًا، يتم التحقق مما إذا كانت y > 25، وإذا كانت النتيجة صحيحة، يتم طباعة "x أكبر من 10 و y أكبر من 25".

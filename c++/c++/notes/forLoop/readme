@@ -1,0 +1,7 @@
+    The traditional for loop is flexible and used when you know the number of iterations or need a loop counter.
+    The range-based for loop simplifies iteration over containers and arrays without manual indexing.
+    You can use multiple initialization and increment expressions in a single for loop.
+    The infinite for loop (for(;;)) is useful in certain situations when you want an indefinite loop that can be controlled using break.
+    Nested for loops are essential for multi-dimensional structures like matrices.
+
+

@@ -1,0 +1,18 @@
+Summary:
+    Basic while loop: Repeats code as long as the condition is true.
+    Infinite while loop: Repeats code indefinitely until a break condition is met.
+    Dead loop: The loop never runs because the condition is initially false.
+    continue statement: Skips to the next iteration without executing the remaining code in the current loop iteration.
+    break statement: Exits the loop immediately, regardless of the condition.
+    Nested while loops: One loop inside another, useful for complex iterations.
+    do-while loop: Guarantees that the loop body executes at least once, as the condition is checked after execution.
+
+الملخص:
+
+    حلقة الويل الأساسية: تعيد تنفيذ الكود طالما أن الشرط صحيح.
+    حلقة الويل لانهائية: تعيد تنفيذ الكود إلى ما لا نهاية حتى يتم استيفاء شرط الخروج (مثل break).
+    حلقة ميتة (Dead Loop): لا تعمل الحلقة لأن الشرط يكون خاطئًا في البداية.
+    تعليمة continue: تتخطى إلى التكرار التالي دون تنفيذ الكود المتبقي في التكرار الحالي للحلقة.
+    تعليمة break: تخرج من الحلقة فورًا، بغض النظر عن الشرط.
+    الحلقات المتداخلة (Nested while loops): حلقة داخل حلقة أخرى، مفيدة للتكرارات المعقدة.
+    حلقة do-while: تضمن أن يتم تنفيذ جسم الحلقة مرة واحدة على الأقل، حيث يتم فحص الشرط بعد تنفيذ الجسم.
