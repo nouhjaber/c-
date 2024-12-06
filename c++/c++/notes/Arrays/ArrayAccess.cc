@@ -31,5 +31,27 @@ int main() {
         }
     }
 
+    cout << endl;
+
+    //? bool 
+    bool arrbo[5] = {true, false, true, true, false};  // Initialize array
+
+    // Loop through the array and check each value
+    for (int i = 0; i < 5; ++i) {
+        if (arrbo[i]) {
+            cout << "arr[" << i << "] is true" << endl;
+        } else {
+            cout << "arr[" << i << "] is false" << endl;
+        }
+    }
+    cout << endl;
+
+    //? you can also print only the element that are true (have a value)
+    for (int i = 0; i < 5; ++i) {
+    if (arrbo[i]) {
+            cout << "arr[" << i << "] is true" << endl;
+    }
+    }
+
     return 0;
 }
