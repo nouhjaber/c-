@@ -20,11 +20,26 @@ void display2DArray(int* arr, int rows, int cols) {
     }
 }
 
+void display2DBoolArray(bool* arr, int rows, int cols) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            cout << *(arr + i * cols + j) << " ";  // Access element using pointer arithmetic
+        }
+        cout << endl;
+    }
+}
+
 int main() {
     int arr2D[3][3] = {
         {1, 2, 3},
         {4, 5, 6},
         {7, 8, 9}
+    };
+
+    bool arr2Dbo[3][3] = {
+        {true, false, true},
+        {false, true, false},
+        {true, true, false}
     };
 
     cout << "Original 2D array:" << endl;
@@ -34,6 +49,8 @@ int main() {
 
     cout << "Modified 2D array:" << endl;
     display2DArray((int*)arr2D, 3, 3);
+
+    display2DBoolArray((bool*)arr2Dbo, 3, 3);  
 
     return 0;
 }
