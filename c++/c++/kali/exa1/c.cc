@@ -1,6 +1,6 @@
 /*******************************************************************************************************************************************
 Ex #c 
-Written by: nouh jaber, id = 215185844, login: nouhja
+Written by: nouh jaber,
 This program simulates the calculation of a students final grade.
 
 Input: The students (assignment, assignment2, exam) grades.
