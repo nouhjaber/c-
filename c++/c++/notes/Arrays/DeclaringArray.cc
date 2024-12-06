@@ -18,6 +18,20 @@ int main ()
     //? Declare an array of strings
     string arr[3] = {"Apple", "Banana", "Cherry"};
 
+    //? bool arrays 
+    //? in bool array true is 1 and false is 0
+    //? Only false array: Initializes all elements to false.
+    bool F1[5] = {false}; 
+
+    //? The first two elements are explicitly set to false and true, 
+    bool F2[5] = {false, true}; //? {false, true, false, false, false}
+
+    //? The first two elements are explicitly set to true and false, 
+    bool F3[5] = {true, false}; //? {true, false ,false, false, false}
+
+    //? if you want to set a element to true in an array that has false in it you have to do it manually 
+    bool F4[5] = {true, false, true, false, false}; //? {true, false ,false, false, false}
+
     //? Example 2: Declaring an array without initialization || (المثال 2: إعلان مصفوفة بدون تهيئة)
     int emptyArray[3];  //? Declares an array of 3 integers, but values are not initialized || (إعلان مصفوفة تحتوي على 3 أعداد صحيحة ولكن القيم غير مهيأة)
 
