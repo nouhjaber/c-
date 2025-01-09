@@ -1,0 +1,156 @@
+ASCII consists of 128 characters:
+33 control characters (non-printing characters like newline, tab, etc.)
+95 printable characters (letters, digits, punctuation, and special symbols)
+These characters are represented by integer values from 0 to 127.
+
+Control Characters (ASCII codes 0–31):
+These characters perform control functions and are not visible as symbols on the screen.
+
+
+ // ==============================================================
+//               Table of ASCII Control Characters (Decimal 0 to 31)
+// ==============================================================
+
+    // 0  | NUL  | Null character        | Used to terminate strings in C and C++.
+    // 1  | SOH  | Start of Heading      | Marks the start of a heading.
+    // 2  | STX  | Start of Text         | Marks the start of text.
+    // 3  | ETX  | End of Text           | Marks the end of text.
+    // 4  | EOT  | End of Transmission   | Marks the end of transmission.
+    // 5  | ENQ  | Enquiry               | Requests information from the receiving device.
+    // 6  | ACK  | Acknowledgment        | Acknowledges receipt of a message.
+    // 7  | BEL  | Bell                  | Triggers an alert sound or visual indication.
+    // 8  | BS   | Backspace             | Moves the cursor one position backward.
+    // 9  | TAB  | Horizontal Tab        | Moves the cursor to the next tab stop.
+    // 10 | LF   | Line Feed             | Moves the cursor to the next line (newline).
+    // 11 | VT   | Vertical Tab          | Moves the cursor to the next vertical tab stop.
+    // 12 | FF   | Form Feed             | Moves the cursor to the next page in printers.
+    // 13 | CR   | Carriage Return       | Moves the cursor to the start of the line.
+    // 14 | SO   | Shift Out             | Switches to an alternate character set.
+    // 15 | SI   | Shift In              | Switches back to the normal character set.
+    // 16 | DLE  | Data Link Escape      | Provides an escape sequence for control.
+    // 17 | DC1  | Device Control 1 (XON)| Device control to start data transmission.
+    // 18 | DC2  | Device Control 2      | Device control sequence.
+    // 19 | DC3  | Device Control 3 (XOFF)| Device control to stop data transmission.
+    // 20 | DC4  | Device Control 4      | Device control sequence.
+    // 21 | NAK  | Negative Acknowledgment| Signals that there was an error in transmission.
+    // 22 | SYN  | Synchronous Idle      | Used to synchronize devices.
+    // 23 | ETB  | End of Block          | Marks the end of a block of data.
+    // 24 | CAN  | Cancel                | Cancels the current operation.
+    // 25 | EM   | End of Medium         | Marks the end of the storage medium.
+    // 26 | SUB  | Substitute            | Replaces faulty or missing characters.
+    // 27 | ESC  | Escape                | Used to initiate control sequences.
+    // 28 | FS   | File Separator        | Separates data into files.
+    // 29 | GS   | Group Separator       | Separates groups of data.
+    // 30 | RS   | Record Separator      | Separates records in data.
+    // 31 | US   | Unit Separator        | Separates units in data.
+
+
+Printable Characters (ASCII codes 32–126): These characters are visible in the text.
+
+Decimal 33–47: Punctuation
+Decimal 48–57: Digits 0-9
+Decimal 58–64: More punctuation ( :, ;, <, =, >, ? @)
+Decimal 65–90: Uppercase letters (A to Z)
+Decimal 91–96: More punctuation ([, \, ], ^, _, `)
+Decimal 97–122: Lowercase letters (a to z)
+Decimal 123–126: More punctuation (e.g., {, |, }, ~)
+
+// ==============================================================
+    // Table of Printable ASCII Characters (Decimal 32 to 126)
+    // ==============================================================
+
+    // 32  | SPACE  | Space                  | A blank space between characters.
+    // 33  | !      | Exclamation Mark       | Used for exclamation, e.g., "Hello!"
+    // 34  | "      | Double Quote           | Used to delimit string literals.
+    // 35  | #      | Hash/Pound Sign        | Used for comments or directives (e.g., #include in C++).
+    // 36  | $      | Dollar Sign            | Represents currency in many countries.
+    // 37  | %      | Percent Sign           | Used for indicating percentages.
+    // 38  | &      | Ampersand              | Used for "and" or in HTML/XML entities (e.g., &amp;).
+    // 39  | '      | Single Quote           | Used for single-character literals in C++.
+    // 40  | (      | Left Parenthesis       | Used to group expressions or arguments.
+    // 41  | )      | Right Parenthesis      | Used to close grouped expressions or arguments.
+    // 42  | *      | Asterisk               | Used for multiplication or as a wildcard.
+    // 43  | +      | Plus Sign              | Used for addition or as a positive sign.
+    // 44  | ,      | Comma                  | Used to separate items in a list or arguments.
+    // 45  | -      | Minus Sign             | Used for subtraction or as a negative sign.
+    // 46  | .      | Period/Full Stop       | Marks the end of a sentence or decimal point.
+    // 47  | /      | Slash/Forward Slash    | Used for division or as a separator in URLs.
+    // 48  | 0      | Zero                   | The numeric character '0'.
+    // 49  | 1      | One                    | The numeric character '1'.
+    // 50  | 2      | Two                    | The numeric character '2'.
+    // 51  | 3      | Three                  | The numeric character '3'.
+    // 52  | 4      | Four                   | The numeric character '4'.
+    // 53  | 5      | Five                   | The numeric character '5'.
+    // 54  | 6      | Six                    | The numeric character '6'.
+    // 55  | 7      | Seven                  | The numeric character '7'.
+    // 56  | 8      | Eight                  | The numeric character '8'.
+    // 57  | 9      | Nine                   | The numeric character '9'.
+    // 58  | :      | Colon                  | Used for time notation or list separation.
+    // 59  | ;      | Semicolon              | Used to terminate statements in many programming languages.
+    // 60  | <      | Less Than              | Used for comparison or HTML tags.
+    // 61  | =      | Equal Sign             | Used for equality check or assignment.
+    // 62  | >      | Greater Than           | Used for comparison.
+    // 63  | ?      | Question Mark          | Used to indicate a query or to end a question.
+    // 64  | @      | At Symbol              | Used in email addresses or annotations.
+    // 65  | A      | Uppercase A            | The letter 'A'.
+    // 66  | B      | Uppercase B            | The letter 'B'.
+    // 67  | C      | Uppercase C            | The letter 'C'.
+    // 68  | D      | Uppercase D            | The letter 'D'.
+    // 69  | E      | Uppercase E            | The letter 'E'.
+    // 70  | F      | Uppercase F            | The letter 'F'.
+    // 71  | G      | Uppercase G            | The letter 'G'.
+    // 72  | H      | Uppercase H            | The letter 'H'.
+    // 73  | I      | Uppercase I            | The letter 'I'.
+    // 74  | J      | Uppercase J            | The letter 'J'.
+    // 75  | K      | Uppercase K            | The letter 'K'.
+    // 76  | L      | Uppercase L            | The letter 'L'.
+    // 77  | M      | Uppercase M            | The letter 'M'.
+    // 78  | N      | Uppercase N            | The letter 'N'.
+    // 79  | O      | Uppercase O            | The letter 'O'.
+    // 80  | P      | Uppercase P            | The letter 'P'.
+    // 81  | Q      | Uppercase Q            | The letter 'Q'.
+    // 82  | R      | Uppercase R            | The letter 'R'.
+    // 83  | S      | Uppercase S            | The letter 'S'.
+    // 84  | T      | Uppercase T            | The letter 'T'.
+    // 85  | U      | Uppercase U            | The letter 'U'.
+    // 86  | V      | Uppercase V            | The letter 'V'.
+    // 87  | W      | Uppercase W            | The letter 'W'.
+    // 88  | X      | Uppercase X            | The letter 'X'.
+    // 89  | Y      | Uppercase Y            | The letter 'Y'.
+    // 90  | Z      | Uppercase Z            | The letter 'Z'.
+    // 91  | [      | Left Square Bracket    | Used for indexing or in array notation.
+    // 92  | \      | Backslash              | Used for escape sequences in strings.
+    // 93  | ]      | Right Square Bracket   | Used for indexing or array notation.
+    // 94  | ^      | Caret (Circumflex)     | Used for exponentiation or logical XOR.
+    // 95  | _      | Underscore             | Used for variable names or separation in file names.
+    // 96  | `      | Grave Accent (Backtick)| Used for code formatting or shell commands.
+    // 97  | a      | Lowercase a            | The letter 'a'.
+    // 98  | b      | Lowercase b            | The letter 'b'.
+    // 99  | c      | Lowercase c            | The letter 'c'.
+    // 100 | d      | Lowercase d            | The letter 'd'.
+    // 101 | e      | Lowercase e            | The letter 'e'.
+    // 102 | f      | Lowercase f            | The letter 'f'.
+    // 103 | g      | Lowercase g            | The letter 'g'.
+    // 104 | h      | Lowercase h            | The letter 'h'.
+    // 105 | i      | Lowercase i            | The letter 'i'.
+    // 106 | j      | Lowercase j            | The letter 'j'.
+    // 107 | k      | Lowercase k            | The letter 'k'.
+    // 108 | l      | Lowercase l            | The letter 'l'.
+    // 109 | m      | Lowercase m            | The letter 'm'.
+    // 110 | n      | Lowercase n            | The letter 'n'.
+    // 111 | o      | Lowercase o            | The letter 'o'.
+    // 112 | p      | Lowercase p            | The letter 'p'.
+    // 113 | q      | Lowercase q            | The letter 'q'.
+    // 114 | r      | Lowercase r            | The letter 'r'.
+    // 115 | s      | Lowercase s            | The letter 's'.
+    // 116 | t      | Lowercase t            | The letter 't'.
+    // 117 | u      | Lowercase u            | The letter 'u'.
+    // 118 | v      | Lowercase v            | The letter 'v'.
+    // 119 | w      | Lowercase w            | The letter 'w'.
+    // 120 | x      | Lowercase x            | The letter 'x'.
+    // 121 | y      | Lowercase y            | The letter 'y'.
+    // 122 | z      | Lowercase z            | The letter 'z'.
+    // 123 | {      | Left Curly Brace       | Used for defining blocks of code in C/C++.
+    // 124 | |      | Vertical Bar (Pipe)    | Used for logical OR or piping in command-line.
+    // 125 | }      | Right Curly Brace      | Used for closing blocks of code in C/C++.
+    // 126 | ~      | Tilde                  | Used for approximation or in URL paths.
