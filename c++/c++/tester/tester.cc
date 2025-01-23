@@ -94,7 +94,7 @@ int main() {
         }
 
         while (true) {
-            cout << "\nEnter the test prefix (e.g., ex7a): ";
+            cout << "\nEnter the test prefix (ex7a): ";
             getline(cin, testPrefix);
             if (!testPrefix.empty()) {
                 break;
