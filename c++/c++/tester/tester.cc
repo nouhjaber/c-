@@ -94,7 +94,7 @@ int main() {
         }
 
         while (true) {
-            cout << "\nEnter the test prefix (ex7a): ";
+            cout << "\nEnter the test prefix (e.g., ex7a): ";
             getline(cin, testPrefix);
             if (!testPrefix.empty()) {
                 break;
@@ -118,6 +118,7 @@ int main() {
         cout << "\nPreparing to run the tests..." << endl;
         this_thread::sleep_for(chrono::seconds(2));
 
+        // Run the tests
         for (int i = 0; i < numTests; i++) {
             testName = testPrefix + "_test" + (i < 10 ? "0" : "") + to_string(i);
 
@@ -130,7 +131,7 @@ int main() {
                 ifstream fileManual(testFile);
                 if (!fileManual) {
                     cout << "File still not found! Skipping this test case.\n";
-                    continue; 
+                    continue;  
                 }
             }
 
@@ -151,7 +152,7 @@ int main() {
 
         if (runAgain == 'n' || runAgain == 'N') {
             cout << "Exiting program..." << endl;
-            break;
+            break; 
         }
     }
 
